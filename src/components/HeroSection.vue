@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen px-6 md:px-16 flex items-center">
+  <section class="relative overflow-hidden min-h-screen px-6 md:px-16 flex items-center">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-6xl mx-auto">
 
       <div class="flex flex-col justify-center gap-5">
@@ -65,6 +65,28 @@
 </template>
 
 <style scoped>
+section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(161,255,98,0.08) 0%, rgba(104,64,255,0.04) 50%, transparent 70%);
+  pointer-events: none;
+}
+
+section::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(104,64,255,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+
 @keyframes fade-in {
   to {
     opacity: 1;
