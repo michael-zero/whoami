@@ -8,8 +8,6 @@
     <hr class="border-zinc-800" />
     <ExperienciaSection />
     <hr class="border-zinc-800" />
-    <MentoriaSection />
-    <hr class="border-zinc-800" />
     <ProjetosSection />
     <hr class="border-zinc-800" />
     <FormacaoSection />
@@ -23,7 +21,6 @@ import HeroSection from '@/components/HeroSection.vue'
 import SobreSection from '@/components/SobreSection.vue'
 import TechStackSection from '@/components/TechStackSection.vue'
 import ExperienciaSection from '@/components/ExperienciaSection.vue'
-import MentoriaSection from '@/components/MentoriaSection.vue'
 import ProjetosSection from '@/components/ProjetosSection.vue'
 import FormacaoSection from '@/components/FormacaoSection.vue'
 </script>
