@@ -22,7 +22,7 @@
              class="bg-blue-custom text-ice px-5 py-2.5 rounded text-sm font-medium hover:opacity-80 transition-opacity">
             LinkedIn
           </a>
-          <a href="https://github.com" target="_blank"
+          <a href="https://github.com/michael-zero" target="_blank"
              class="border border-gray-custom text-ice px-5 py-2.5 rounded text-sm font-medium hover:bg-ice hover:text-primary transition-colors">
             GitHub
           </a>
