@@ -49,10 +49,10 @@
             TypeScript
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            RxJS
+            Vue
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            Next.js
+            React Native
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
             Tailwind

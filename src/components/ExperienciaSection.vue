@@ -7,9 +7,38 @@
 
       <div class="relative space-y-12">
 
-        <!-- Black Arrow Capital -->
+        <!-- SECTI (Atual) -->
         <div class="relative pl-8 md:pl-12 border-l-2 border-secondary">
           <div class="absolute -left-2.5 top-1 w-5 h-5 bg-secondary rounded-full" />
+
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+            <div>
+              <h3 class="text-lg font-semibold text-ice">SECTI</h3>
+              <p class="text-sm text-gray-custom">Secretaria Municipal de Ciência, Tecnologia e Inovação — Teresina</p>
+            </div>
+            <span class="text-xs text-secondary font-medium">Jun 2026 — o momento</span>
+          </div>
+
+          <p class="text-gray-custom text-sm leading-relaxed mb-3">
+            Atuação na secretaria responsável pela modernização, transformação digital e inovação do
+            município de Teresina. Desenvolvimento de soluções para aproximar os cidadãos dos serviços públicos.
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Vue</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Pinia</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">TanStack Query</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Zod</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Yup</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Vee-Validate</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">TypeScript</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Tailwind</span>
+          </div>
+        </div>
+
+        <!-- Black Arrow Capital -->
+        <div class="relative pl-8 md:pl-12 border-l-2 border-zinc-700">
+          <div class="absolute -left-2 top-1 w-4 h-4 bg-zinc-600 rounded-full" />
 
           <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
             <div>
