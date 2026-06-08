@@ -4,6 +4,7 @@
     <SobreSection />
     <TechStackSection />
     <ExperienciaSection />
+    <MentoriaSection />
   </main>
   <AppFooter />
 </template>
@@ -14,4 +15,5 @@ import HeroSection from '@/components/HeroSection.vue'
 import SobreSection from '@/components/SobreSection.vue'
 import TechStackSection from '@/components/TechStackSection.vue'
 import ExperienciaSection from '@/components/ExperienciaSection.vue'
+import MentoriaSection from '@/components/MentoriaSection.vue'
 </script>

@@ -20,8 +20,12 @@
           </div>
 
           <p class="text-gray-custom text-sm leading-relaxed mb-3">
-            Modernização do Angular da versão <strong class="text-secondary">14 até a 20</strong> e melhorias de performance
-            em aplicações para fundos de investimento. Criação de tabelas dinâmicas, code reviews e aplicação de design patterns.
+            Desenvolvimento e manutenção da <strong class="text-secondary">Black101</strong>, plataforma inteligente para
+            gestão de fundos de investimento em direitos creditórios (FIDC), 100% integrada via API com as principais
+            registradoras (conformidade CVM 175). Modernização do Angular da versão <strong class="text-secondary">14 à 20</strong>
+            com ganhos expressivos de performance. Criação de tabelas dinâmicas, dashboards financeiros, módulos de
+            parametrização, cadastros, operações e relatórios. Code reviews, design patterns e melhorias contínuas
+            na arquitetura front-end.
           </p>
 
           <div class="flex flex-wrap gap-2">
@@ -30,6 +34,7 @@
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">RxJS</span>
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">WebSocket</span>
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">SQL Server</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Design Patterns</span>
           </div>
         </div>
 
@@ -46,13 +51,17 @@
           </div>
 
           <p class="text-gray-custom text-sm leading-relaxed mb-3">
-            Desenvolvimento de interfaces para saúde digital, teleconsulta e biometria digital/facial.
-            Deploys, homologações e visualização de dados com Power BI.
+            Desenvolvimento de interfaces para teleconsulta médica — consultas de urgência, consultas eletivas e
+            consultas online. Responsável por garantir um serviço estável, eficiente e que as chamadas não
+            caíssem. Implementação de fluxos de controle de agendamentos, acesso a prescrições, históricos
+            clínicos e solicitação de exames. Integração com biometria digital/facial, deploys, homologações
+            e dashboards com Power BI.
           </p>
 
           <div class="flex flex-wrap gap-2">
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Angular</span>
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">TypeScript</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">WebSocket</span>
             <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Power BI</span>
           </div>
         </div>
@@ -94,8 +103,10 @@
           </div>
 
           <p class="text-gray-custom text-sm leading-relaxed mb-3">
-            App de localização de pontos de vacinação durante a pandemia. Prototipação no Figma, front-end em React,
-            API com Node.js e publicação na Google Play.
+            Desenvolvimento do <strong class="text-secondary">Teresinense Digital</strong>, aplicação que aproxima os
+            cidadãos dos principais pontos públicos de Teresina. App de localização de pontos de vacinação durante
+            a pandemia com acompanhamento de fluxo por horário. Prototipação no Figma, front-end em React, API
+            com Node.js, publicação na Google Play e orientação em React Native.
           </p>
 
           <div class="flex flex-wrap gap-2">
