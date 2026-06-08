@@ -7,7 +7,7 @@
 
       <div class="space-y-8">
 
-        <div class="border border-zinc-700 rounded-lg p-6 md:p-8">
+        <div class="border border-zinc-700 rounded-lg p-6 md:p-8 hover:-translate-y-1 hover:border-secondary transition-all duration-300">
           <h3 class="text-lg font-semibold text-ice mb-1">Studio Leila Porto</h3>
           <p class="text-xs text-gray-custom mb-2">Sistema de gerenciamento de procedimentos estéticos</p>
           <a href="https://studioleilaporto.com/login" target="_blank"
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div class="border border-zinc-700 rounded-lg p-6 md:p-8">
+        <div class="border border-zinc-700 rounded-lg p-6 md:p-8 hover:-translate-y-1 hover:border-secondary transition-all duration-300">
           <h3 class="text-lg font-semibold text-ice mb-1">Casa Musical</h3>
           <p class="text-xs text-gray-custom mb-2">Sistema institucional e controle de aulas experimentais</p>
           <a href="https://www.casamusicalteresina.com/home" target="_blank"

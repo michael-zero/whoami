@@ -6,7 +6,7 @@
 
       <p class="text-gray-custom">Timon, MA — Brasil</p>
 
-      <div class="flex justify-center gap-6 text-xs">
+      <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs">
         <a href="https://linkedin.com/in/michael-lesley-9a1a02178" target="_blank"
            class="text-gray-custom hover:text-secondary transition-colors">
           LinkedIn
