@@ -39,23 +39,23 @@
 
       <div class="flex flex-col justify-center items-center md:items-end">
         <div class="grid grid-cols-2 gap-3 w-full max-w-xs">
-          <span class="bg-primary border border-secondary text-secondary text-center text-sm font-medium px-4 py-3 rounded">
-            Angular
+          <span class="bg-primary border border-secondary text-secondary text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/angular/ffffff" class="w-4 h-4" />Angular
           </span>
-          <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            React
+          <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/react/ffffff" class="w-4 h-4" />React
           </span>
-          <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            TypeScript
+          <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/typescript/ffffff" class="w-4 h-4" />TypeScript
           </span>
-          <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            Vue
+          <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/vuedotjs/ffffff" class="w-4 h-4" />Vue
           </span>
-          <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            React Native
+          <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/react/ffffff" class="w-4 h-4" />React Native
           </span>
-          <span class="bg-primary border border-zinc-700 text-ice text-center text-sm font-medium px-4 py-3 rounded">
-            Tailwind
+          <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
+            <img src="https://cdn.simpleicons.org/tailwindcss/ffffff" class="w-4 h-4" />Tailwind
           </span>
         </div>
       </div>
