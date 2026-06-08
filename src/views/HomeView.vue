@@ -1,11 +1,17 @@
 <template>
   <main class="bg-primary">
     <HeroSection />
+    <hr class="border-zinc-800" />
     <SobreSection />
+    <hr class="border-zinc-800" />
     <TechStackSection />
+    <hr class="border-zinc-800" />
     <ExperienciaSection />
+    <hr class="border-zinc-800" />
     <MentoriaSection />
+    <hr class="border-zinc-800" />
     <ProjetosSection />
+    <hr class="border-zinc-800" />
     <FormacaoSection />
   </main>
   <AppFooter />
