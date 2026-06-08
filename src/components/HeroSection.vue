@@ -26,6 +26,10 @@
              class="border border-gray-custom text-ice px-5 py-2.5 rounded text-sm font-medium hover:bg-ice hover:text-primary transition-colors">
             GitHub
           </a>
+          <a href="https://www.youtube.com/@codeloop6704/playlists" target="_blank"
+             class="border border-gray-custom text-ice px-5 py-2.5 rounded text-sm font-medium hover:bg-ice hover:text-primary transition-colors">
+            YouTube
+          </a>
           <a href="mailto:mlmbufpi@gmail.com"
              class="text-gray-custom hover:text-secondary transition-colors text-sm flex items-center">
             Email →

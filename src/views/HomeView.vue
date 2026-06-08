@@ -5,6 +5,8 @@
     <TechStackSection />
     <ExperienciaSection />
     <MentoriaSection />
+    <ProjetosSection />
+    <FormacaoSection />
   </main>
   <AppFooter />
 </template>
@@ -16,4 +18,6 @@ import SobreSection from '@/components/SobreSection.vue'
 import TechStackSection from '@/components/TechStackSection.vue'
 import ExperienciaSection from '@/components/ExperienciaSection.vue'
 import MentoriaSection from '@/components/MentoriaSection.vue'
+import ProjetosSection from '@/components/ProjetosSection.vue'
+import FormacaoSection from '@/components/FormacaoSection.vue'
 </script>

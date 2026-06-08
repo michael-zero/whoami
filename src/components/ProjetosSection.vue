@@ -9,7 +9,11 @@
 
         <div class="border border-zinc-700 rounded-lg p-6 md:p-8">
           <h3 class="text-lg font-semibold text-ice mb-1">Studio Leila Porto</h3>
-          <p class="text-xs text-gray-custom mb-4">Sistema de gerenciamento de procedimentos estéticos</p>
+          <p class="text-xs text-gray-custom mb-2">Sistema de gerenciamento de procedimentos estéticos</p>
+          <a href="https://studioleilaporto.com/login" target="_blank"
+             class="inline-block text-xs text-secondary hover:underline mb-4">
+            studioleilaporto.com →
+          </a>
 
           <p class="text-gray-custom text-sm leading-relaxed mb-4">
             Sistema para gerenciamento e solicitação de procedimentos estéticos. Interface para organização
@@ -18,14 +22,18 @@
           </p>
 
           <div class="flex flex-wrap gap-2">
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">React</span>
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Node.js</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Angular</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">.NET</span>
           </div>
         </div>
 
         <div class="border border-zinc-700 rounded-lg p-6 md:p-8">
           <h3 class="text-lg font-semibold text-ice mb-1">Casa Musical</h3>
-          <p class="text-xs text-gray-custom mb-4">Sistema institucional e controle de aulas experimentais</p>
+          <p class="text-xs text-gray-custom mb-2">Sistema institucional e controle de aulas experimentais</p>
+          <a href="https://www.casamusicalteresina.com/home" target="_blank"
+             class="inline-block text-xs text-secondary hover:underline mb-4">
+            casamusicalteresina.com →
+          </a>
 
           <p class="text-gray-custom text-sm leading-relaxed mb-4">
             Site institucional para uma casa musical com sistema de controle de aulas experimentais.
@@ -33,8 +41,8 @@
           </p>
 
           <div class="flex flex-wrap gap-2">
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">React</span>
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Node.js</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Angular</span>
+            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">.NET</span>
           </div>
         </div>
 
