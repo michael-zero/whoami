@@ -10,78 +10,42 @@
         <div>
           <h3 class="text-secondary font-semibold text-sm uppercase tracking-widest mb-5">Front-end</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/angular/ffffff" class="w-3.5 h-3.5" />Angular
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/react/ffffff" class="w-3.5 h-3.5" />React
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/react/ffffff" class="w-3.5 h-3.5" />React Native
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/vuedotjs/ffffff" class="w-3.5 h-3.5" />Vue
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/nextdotjs/ffffff" class="w-3.5 h-3.5" />Next.js
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/typescript/ffffff" class="w-3.5 h-3.5" />TypeScript
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/javascript/ffffff" class="w-3.5 h-3.5" />JavaScript
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">RxJS</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">Angular Material</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/sass/ffffff" class="w-3.5 h-3.5" />Sass
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/tailwindcss/ffffff" class="w-3.5 h-3.5" />Tailwind
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">HTML / CSS</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Angular</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">React</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">React Native</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Vue</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Next.js</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">TypeScript</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">JavaScript</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">RxJS</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Angular Material</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Sass</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Tailwind</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">HTML / CSS</span>
           </div>
         </div>
 
         <div>
           <h3 class="text-secondary font-semibold text-sm uppercase tracking-widest mb-5">Back-end</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/nodedotjs/ffffff" class="w-3.5 h-3.5" />Node.js
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/firebase/ffffff" class="w-3.5 h-3.5" />Firebase
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/strapi/ffffff" class="w-3.5 h-3.5" />Strapi
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/microsoftsqlserver/ffffff" class="w-3.5 h-3.5" />SQL / SQL Server
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/csharp/ffffff" class="w-3.5 h-3.5" />C# / .NET
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">WebSocket</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">APIs REST</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Node.js</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Firebase</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Strapi</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">SQL / SQL Server</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">C# / .NET</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">WebSocket</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">APIs REST</span>
           </div>
         </div>
 
         <div>
           <h3 class="text-secondary font-semibold text-sm uppercase tracking-widest mb-5">Ferramentas</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/git/ffffff" class="w-3.5 h-3.5" />Git
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/figma/ffffff" class="w-3.5 h-3.5" />Figma
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/jira/ffffff" class="w-3.5 h-3.5" />Jira
-            </span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">Scrum</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded flex items-center gap-1.5">
-              <img src="https://cdn.simpleicons.org/powerbi/ffffff" class="w-3.5 h-3.5" />Power BI
-            </span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Git</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Figma</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Jira</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Scrum</span>
+            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Power BI</span>
           </div>
         </div>
 
