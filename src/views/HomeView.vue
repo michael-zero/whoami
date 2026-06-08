@@ -11,6 +11,8 @@
     <ProjetosSection />
     <hr class="border-zinc-800" />
     <FormacaoSection />
+    <!-- <hr class="border-zinc-800" />
+    <ContatoSection /> -->
   </main>
   <AppFooter />
 </template>
@@ -23,4 +25,5 @@ import TechStackSection from '@/components/TechStackSection.vue'
 import ExperienciaSection from '@/components/ExperienciaSection.vue'
 import ProjetosSection from '@/components/ProjetosSection.vue'
 import FormacaoSection from '@/components/FormacaoSection.vue'
+// import ContatoSection from '@/components/ContatoSection.vue'
 </script>
