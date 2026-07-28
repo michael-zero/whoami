@@ -1,5 +1,5 @@
 <template>
-  <section class="px-6 md:px-16 py-24">
+  <section id="formacao" class="scroll-mt-20 px-6 md:px-16 py-24">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold text-ice mb-12">
         Formação

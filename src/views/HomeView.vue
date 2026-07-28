@@ -1,15 +1,15 @@
 <template>
   <main class="bg-primary">
     <HeroSection />
-    <hr class="border-zinc-800" />
+    <hr class="border-zinc-800" aria-hidden="true" />
     <SobreSection />
-    <hr class="border-zinc-800" />
+    <hr class="border-zinc-800" aria-hidden="true" />
     <TechStackSection />
-    <hr class="border-zinc-800" />
+    <hr class="border-zinc-800" aria-hidden="true" />
     <ExperienciaSection />
-    <hr class="border-zinc-800" />
+    <hr class="border-zinc-800" aria-hidden="true" />
     <ProjetosSection />
-    <hr class="border-zinc-800" />
+    <hr class="border-zinc-800" aria-hidden="true" />
     <FormacaoSection />
     <!-- <hr class="border-zinc-800" />
     <ContatoSection /> -->

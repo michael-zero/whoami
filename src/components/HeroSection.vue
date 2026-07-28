@@ -1,5 +1,5 @@
 <template>
-  <section class="relative overflow-hidden min-h-screen px-6 md:px-16 flex items-center">
+  <section id="inicio" class="relative overflow-hidden min-h-screen px-6 pt-24 md:px-16 flex items-center">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-6xl mx-auto">
 
       <div class="flex flex-col justify-center gap-5">
@@ -9,30 +9,26 @@
 
         <h1 class="text-5xl md:text-7xl font-bold text-ice leading-tight opacity-0 translate-y-4 animate-fade-in [animation-delay:200ms]">
           Front-end<br />
-          <span class="text-secondary">Developer</span>
+          <span class="text-secondary">Specialist</span>
         </h1>
 
         <p class="text-gray-custom text-base md:text-lg leading-relaxed max-w-md opacity-0 translate-y-4 animate-fade-in [animation-delay:400ms]">
-          Especialista em Angular, React e TypeScript. Crio interfaces modernas para
-          finanças, saúde digital e produtos digitais.
+          Desenvolvedor Front-end com experiência Full-stack. Construo produtos digitais
+          completos para finanças, saúde, serviços públicos e negócios.
         </p>
 
         <div class="flex flex-wrap gap-3 pt-2">
-          <a href="https://linkedin.com/in/michael-lesley-9a1a02178" target="_blank"
+          <a href="#projetos"
              class="bg-blue-custom text-ice px-4 py-2 rounded text-sm font-medium hover:opacity-80 transition-opacity">
-            LinkedIn
+            Ver projetos
           </a>
-          <a href="https://github.com/michael-zero" target="_blank"
+          <a href="https://github.com/michael-zero" target="_blank" rel="noopener noreferrer"
              class="border border-gray-custom text-ice px-4 py-2 rounded text-sm font-medium hover:bg-ice hover:text-primary transition-colors">
             GitHub
           </a>
-          <a href="https://www.youtube.com/@codeloop6704/playlists" target="_blank"
-             class="border border-gray-custom text-ice px-4 py-2 rounded text-sm font-medium hover:bg-ice hover:text-primary transition-colors">
-            YouTube
-          </a>
           <a href="mailto:mlmbufpi@gmail.com"
              class="text-gray-custom hover:text-secondary transition-colors text-sm flex items-center">
-            Email →
+            Vamos conversar →
           </a>
         </div>
       </div>
@@ -40,22 +36,22 @@
       <div class="flex flex-col justify-center items-center md:items-end">
         <div class="grid grid-cols-2 gap-3 w-full max-w-xs">
           <span class="bg-primary border border-secondary text-secondary text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/angular/ffffff" class="w-4 h-4" />Angular
+            <img src="https://cdn.simpleicons.org/angular/ffffff" class="w-4 h-4" alt="" />Angular
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/react/ffffff" class="w-4 h-4" />React
+            <img src="https://cdn.simpleicons.org/react/ffffff" class="w-4 h-4" alt="" />React
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/typescript/ffffff" class="w-4 h-4" />TypeScript
+            <img src="https://cdn.simpleicons.org/typescript/ffffff" class="w-4 h-4" alt="" />TypeScript
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/vuedotjs/ffffff" class="w-4 h-4" />Vue
+            <img src="https://cdn.simpleicons.org/vuedotjs/ffffff" class="w-4 h-4" alt="" />Vue
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/react/ffffff" class="w-4 h-4" />React Native
+            <img src="https://cdn.simpleicons.org/nodedotjs/ffffff" class="w-4 h-4" alt="" />Node.js
           </span>
           <span class="bg-primary border border-zinc-700 text-ice text-sm font-medium px-4 py-3 rounded flex items-center justify-center gap-1.5">
-            <img src="https://cdn.simpleicons.org/tailwindcss/ffffff" class="w-4 h-4" />Tailwind
+            <img src="https://cdn.simpleicons.org/dotnet/ffffff" class="w-4 h-4" alt="" />.NET
           </span>
         </div>
       </div>

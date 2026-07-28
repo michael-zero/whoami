@@ -1,5 +1,5 @@
 <template>
-  <section class="px-6 md:px-16 py-24">
+  <section id="tecnologias" class="scroll-mt-20 px-6 md:px-16 py-24">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold text-ice mb-12">
         Tech Stack
@@ -28,11 +28,13 @@
         <div>
           <h3 class="text-secondary font-semibold text-sm uppercase tracking-widest mb-5">Back-end</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Node.js</span>
+            <span class="bg-primary border border-secondary/50 text-secondary text-sm px-3 py-1.5 rounded">Node.js</span>
+            <span class="bg-primary border border-secondary/50 text-secondary text-sm px-3 py-1.5 rounded">NestJS</span>
             <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Firebase</span>
             <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">Strapi</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">SQL / SQL Server</span>
-            <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">C# / .NET</span>
+            <span class="bg-primary border border-secondary/50 text-secondary text-sm px-3 py-1.5 rounded">SQL / SQL Server</span>
+            <span class="bg-primary border border-secondary/50 text-secondary text-sm px-3 py-1.5 rounded">PostgreSQL / Prisma</span>
+            <span class="bg-primary border border-secondary/50 text-secondary text-sm px-3 py-1.5 rounded">C# / .NET</span>
             <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">WebSocket</span>
             <span class="bg-primary border border-zinc-700 text-ice text-sm px-3 py-1.5 rounded">APIs REST</span>
           </div>

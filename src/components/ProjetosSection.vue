@@ -1,55 +1,126 @@
 <template>
-  <section class="px-6 md:px-16 py-24">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold text-ice mb-12">
-        Projetos Freelancer
-      </h2>
+  <section id="projetos" class="scroll-mt-20 px-6 py-24 md:px-16">
+    <div class="mx-auto max-w-6xl">
+      <div class="mb-12 max-w-2xl">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-secondary">
+          Da interface à infraestrutura
+        </p>
+        <h2 class="mb-4 text-3xl font-bold text-ice md:text-4xl">Produtos Full-stack</h2>
+        <p class="leading-relaxed text-gray-custom">
+          Projetos em que participei de todo o ciclo: entendimento do problema, experiência
+          do usuário, front-end, API, banco de dados e entrega.
+        </p>
+      </div>
 
-      <div class="space-y-8">
+      <div class="grid gap-6 lg:grid-cols-2">
+        <article
+          v-for="project in projects"
+          :key="project.name"
+          class="group flex flex-col rounded-xl border border-zinc-700 bg-white/[0.02] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-secondary md:p-8"
+        >
+          <div class="mb-6 flex items-start justify-between gap-4">
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-secondary">
+                {{ project.type }}
+              </p>
+              <h3 class="text-2xl font-semibold text-ice">{{ project.name }}</h3>
+            </div>
+            <span class="shrink-0 rounded-full border border-zinc-700 px-3 py-1 text-xs text-gray-custom">
+              {{ project.status }}
+            </span>
+          </div>
 
-        <div class="border border-zinc-700 rounded-lg p-6 md:p-8 hover:-translate-y-1 hover:border-secondary transition-all duration-300">
-          <h3 class="text-lg font-semibold text-ice mb-1">Studio Leila Porto</h3>
-          <p class="text-xs text-gray-custom mb-2">Sistema de gerenciamento de procedimentos estéticos</p>
-          <a href="https://studioleilaporto.com/login" target="_blank"
-             class="inline-block text-xs text-secondary hover:underline mb-4">
-            studioleilaporto.com →
-          </a>
-
-          <p class="text-gray-custom text-sm leading-relaxed mb-4">
-            Sistema para gerenciamento e solicitação de procedimentos estéticos. Interface para organização
-            de serviços, solicitações e fluxos de atendimento. Levantamento de necessidades, estruturação
-            da solução e entrega completa do sistema.
+          <p class="mb-6 text-sm leading-relaxed text-gray-custom">
+            {{ project.description }}
           </p>
 
-          <div class="flex flex-wrap gap-2">
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Angular</span>
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">.NET</span>
+          <ul class="mb-6 space-y-2 text-sm text-gray-custom">
+            <li v-for="highlight in project.highlights" :key="highlight" class="flex gap-2">
+              <span class="text-secondary" aria-hidden="true">✓</span>
+              <span>{{ highlight }}</span>
+            </li>
+          </ul>
+
+          <div class="mt-auto">
+            <div class="mb-6 flex flex-wrap gap-2">
+              <span
+                v-for="technology in project.technologies"
+                :key="technology"
+                class="rounded bg-blue-custom/20 px-2.5 py-1 text-xs text-blue-300"
+              >
+                {{ technology }}
+              </span>
+            </div>
+
+            <a
+              v-if="project.url"
+              :href="project.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-sm font-semibold text-secondary hover:underline"
+            >
+              Conhecer o projeto <span aria-hidden="true">→</span>
+            </a>
+            <span v-else class="text-sm text-zinc-400">Case em preparação</span>
           </div>
-        </div>
-
-        <div class="border border-zinc-700 rounded-lg p-6 md:p-8 hover:-translate-y-1 hover:border-secondary transition-all duration-300">
-          <h3 class="text-lg font-semibold text-ice mb-1">Casa Musical</h3>
-          <p class="text-xs text-gray-custom mb-2">Sistema institucional e controle de aulas experimentais</p>
-          <a href="https://www.casamusicalteresina.com/home" target="_blank"
-             class="inline-block text-xs text-secondary hover:underline mb-4">
-            casamusicalteresina.com →
-          </a>
-
-          <p class="text-gray-custom text-sm leading-relaxed mb-4">
-            Site institucional para uma casa musical com sistema de controle de aulas experimentais.
-            Interface para captação, organização e acompanhamento de interessados.
-          </p>
-
-          <div class="flex flex-wrap gap-2">
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">Angular</span>
-            <span class="bg-blue-custom/20 text-blue-custom text-xs px-2.5 py-1 rounded">.NET</span>
-          </div>
-        </div>
-
+        </article>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+interface Project {
+  name: string
+  type: string
+  status: string
+  description: string
+  highlights: string[]
+  technologies: string[]
+  url?: string
+}
+
+const projects: Project[] = [
+  {
+    name: 'Gym Tracker',
+    type: 'Produto autoral · Full-stack',
+    status: 'Em desenvolvimento',
+    description:
+      'Plataforma para professores criarem planos de treino e acompanharem seus alunos, enquanto os alunos acessam e organizam sua rotina de exercícios.',
+    highlights: [
+      'Perfis distintos para professor e aluno com associação por código de convite.',
+      'Criação de planos, fichas e exercícios com organização visual.',
+      'API autenticada, modelagem relacional e controle de acesso por perfil.',
+    ],
+    technologies: ['Vue 3', 'TypeScript', 'Pinia', 'NestJS', 'Prisma', 'PostgreSQL', 'JWT'],
+  },
+  {
+    name: 'Studio Leila Porto',
+    type: 'Sistema em produção · Full-stack',
+    status: 'Em produção',
+    description:
+      'Sistema de gestão para um estúdio de estética, criado a partir das necessidades reais do negócio para organizar procedimentos, solicitações e atendimento.',
+    highlights: [
+      'Levantamento de requisitos e definição dos principais fluxos do produto.',
+      'Interface responsiva para operação e acompanhamento dos atendimentos.',
+      'Desenvolvimento e publicação do front-end, API e banco de dados.',
+    ],
+    technologies: ['Angular', 'TypeScript', '.NET', 'C#', 'SQL Server'],
+    url: 'https://studioleilaporto.com/login',
+  },
+  {
+    name: 'Casa Musical',
+    type: 'Projeto para cliente · Full-stack',
+    status: 'Em produção',
+    description:
+      'Site institucional com sistema para captação, organização e acompanhamento de interessados em aulas experimentais.',
+    highlights: [
+      'Experiência institucional alinhada à identidade do negócio.',
+      'Fluxo para registro e controle de aulas experimentais.',
+      'Solução completa com interface, API e persistência de dados.',
+    ],
+    technologies: ['Angular', 'TypeScript', '.NET', 'C#'],
+    url: 'https://www.casamusicalteresina.com/home',
+  },
+]
 </script>

@@ -1,5 +1,8 @@
 <template>
   <button @click="scrollToTop"
+          type="button"
+          aria-label="Voltar ao topo"
+          title="Voltar ao topo"
           class="fixed bottom-6 right-6 z-50 w-10 h-10 flex items-center justify-center rounded-full border border-zinc-700 text-gray-custom hover:text-secondary hover:border-secondary bg-primary transition-all duration-300"
           :class="visible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'">
     <span class="text-lg leading-none">↑</span>
