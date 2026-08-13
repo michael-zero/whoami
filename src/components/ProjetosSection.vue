@@ -106,7 +106,7 @@ const projects: Project[] = [
       'Desenvolvimento e publicação do front-end, API e banco de dados.',
     ],
     technologies: ['Angular', 'TypeScript', '.NET', 'C#', 'SQL Server'],
-    url: 'https://studioleilaporto.com/login',
+    url: 'https://studioleilaporto.com/',
   },
   {
     name: 'Casa Musical',
