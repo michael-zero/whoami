@@ -82,6 +82,20 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: 'AgendAli',
+    type: 'Produto autoral · SaaS Full-stack',
+    status: 'Em produção',
+    description:
+      'SaaS multi-tenant para profissionais de estética e bem-estar divulgarem seus serviços e organizarem agendamentos com segurança e autonomia.',
+    highlights: [
+      'Catálogo público com autenticação solicitada somente no momento do agendamento.',
+      'Isolamento de dados e permissões por estabelecimento desde a modelagem inicial.',
+      'Arquitetura modular, testes automatizados e operação preparada para novos clientes.',
+    ],
+    technologies: ['Angular', 'TypeScript', 'Tailwind', '.NET 10', 'EF Core', 'PostgreSQL', 'Docker'],
+    url: 'https://useagendali.com',
+  },
+  {
     name: 'Gym Tracker',
     type: 'Produto autoral · Full-stack',
     status: 'Em desenvolvimento',
